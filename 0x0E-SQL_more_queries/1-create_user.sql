@@ -1,3 +1,4 @@
--- Query to create user 'user_0d_1'@'localhost';
-CREATE USER IF NOT EXISTS 'user_0d_1'@'localhost';
-GRANT ALL PRIVILEGES ON * . * TO 'user_0d_1'@'localhost' IDENTIFIED BY 'user_0d_1_pwd';
+-- Query to create the MySQL server user user_0d_1
+CREATE USER IF NOT EXISTS user_0d_1@localhost IDENTIFIED BY 'user_0d_1_pwd';
+-- granting privileges
+GRANT ALL PRIVILEGES ON * . * TO user_0d_1@localhost;
